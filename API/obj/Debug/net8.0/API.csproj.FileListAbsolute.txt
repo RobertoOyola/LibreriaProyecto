@@ -272,6 +272,7 @@ C:\Users\royol\Documents\backend\apis\LibreriaProyecto\API\obj\Debug\net8.0\API.
 C:\Users\royol\Documents\backend\apis\LibreriaProyecto\API\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
 C:\Users\royol\Documents\backend\apis\LibreriaProyecto\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\royol\Documents\backend\apis\LibreriaProyecto\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\royol\Documents\backend\apis\LibreriaProyecto\API\obj\Debug\net8.0\API.sourcelink.json
 C:\Users\royol\Documents\backend\apis\LibreriaProyecto\API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\royol\Documents\backend\apis\LibreriaProyecto\API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\royol\Documents\backend\apis\LibreriaProyecto\API\obj\Debug\net8.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props

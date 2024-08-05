@@ -10,6 +10,6 @@ namespace DataLayer.Repositories.Prestamo
 {
     public interface IPrestamoRepository
     {
-        public Task<Response> ObtenerPrestamo();
+        public Task<Response> ObtenerPrestamos();
     }
 }

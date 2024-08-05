@@ -2,11 +2,13 @@ using BusinessLayer.Services.Autor;
 using BusinessLayer.Services.Usuario;
 using BusinessLayer.Services.Categoria;
 using BusinessLayer.Services.Libro;
+using BusinessLayer.Services.Prestamo;
 
 using DataLayer.Repositories.Autor;
 using DataLayer.Repositories.Usuario;
 using DataLayer.Repositories.Categoria;
 using DataLayer.Repositories.Libro;
+using DataLayer.Repositories.Prestamo;
 
 using DataLayer.DataBase;
 using Microsoft.EntityFrameworkCore;
@@ -48,6 +50,10 @@ builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 //Libro
 builder.Services.AddScoped<ILibroServices, LibroServices>();
 builder.Services.AddScoped<ILibroRepository, LibroRepository>();
+
+//Prestamo
+builder.Services.AddScoped<IPrestamoServices, PrestamoServices>();
+builder.Services.AddScoped<IPrestamoRepository, PrestamoRepository>();
 
 //Add Context
 builder.Services.AddDbContext<Libreria2DbContext>(

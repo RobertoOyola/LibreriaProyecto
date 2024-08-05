@@ -24,13 +24,13 @@ namespace DataLayer.Repositories.Prestamo
             _context = context;
         }
 
-        public async Task<Response> ObtenerPrestamo()
+        public async Task<Response> ObtenerPrestamos()
         {
             connection = (SqlConnection)response.Data!;
 
             try
             {
-                SqlCommand command = new SqlCommand("SP_PRESTAMOS_CABECERA_GET", connection);
+                SqlCommand command = new SqlCommand("SP_PRESTAMOS_SHOWS", connection);
                 command.CommandType = System.Data.CommandType.StoredProcedure;
 
                 SqlDataReader reader = await command.ExecuteReaderAsync();

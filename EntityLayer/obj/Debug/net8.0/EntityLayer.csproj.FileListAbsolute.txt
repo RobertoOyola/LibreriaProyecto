@@ -18,6 +18,7 @@ C:\Users\royol\Documents\backend\apis\LibreriaProyecto\EntityLayer\obj\Debug\net
 C:\Users\royol\Documents\backend\apis\LibreriaProyecto\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfoInputs.cache
 C:\Users\royol\Documents\backend\apis\LibreriaProyecto\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfo.cs
 C:\Users\royol\Documents\backend\apis\LibreriaProyecto\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\royol\Documents\backend\apis\LibreriaProyecto\EntityLayer\obj\Debug\net8.0\EntityLayer.sourcelink.json
 C:\Users\royol\Documents\backend\apis\LibreriaProyecto\EntityLayer\obj\Debug\net8.0\EntityLayer.dll
 C:\Users\royol\Documents\backend\apis\LibreriaProyecto\EntityLayer\obj\Debug\net8.0\refint\EntityLayer.dll
 C:\Users\royol\Documents\backend\apis\LibreriaProyecto\EntityLayer\obj\Debug\net8.0\EntityLayer.pdb
