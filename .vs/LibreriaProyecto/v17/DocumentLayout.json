@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CAED759-C8BA-495E-8555-587B7642BD42}|DataLayer\\DataLayer.csproj|c:\\users\\royol\\documents\\backend\\apis\\libreriaproyecto\\datalayer\\repositories\\libro\\librorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CAED759-C8BA-495E-8555-587B7642BD42}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\repositories\\libro\\librorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D70F9198-EB06-45CE-BBC1-6B7F58EB83C8}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\royol\\documents\\backend\\apis\\libreriaproyecto\\businesslayer\\services\\prestamo\\iprestamoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70F9198-EB06-45CE-BBC1-6B7F58EB83C8}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\prestamo\\iprestamoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{044160E2-4B05-4292-B841-B16572B67E04}|EntityLayer\\EntityLayer.csproj|c:\\users\\royol\\documents\\backend\\apis\\libreriaproyecto\\entitylayer\\models\\dto\\librosfiltrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{044160E2-4B05-4292-B841-B16572B67E04}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\models\\dto\\librosfiltrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D70F9198-EB06-45CE-BBC1-6B7F58EB83C8}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\royol\\documents\\backend\\apis\\libreriaproyecto\\businesslayer\\services\\prestamo\\prestamoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70F9198-EB06-45CE-BBC1-6B7F58EB83C8}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\prestamo\\prestamoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{044160E2-4B05-4292-B841-B16572B67E04}|EntityLayer\\EntityLayer.csproj|c:\\users\\royol\\documents\\backend\\apis\\libreriaproyecto\\entitylayer\\models\\dto\\filtrolibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{044160E2-4B05-4292-B841-B16572B67E04}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\models\\dto\\filtrolibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CAED759-C8BA-495E-8555-587B7642BD42}|DataLayer\\DataLayer.csproj|c:\\users\\royol\\documents\\backend\\apis\\libreriaproyecto\\datalayer\\repositories\\prestamo\\prestamorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAED759-C8BA-495E-8555-587B7642BD42}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\repositories\\prestamo\\prestamorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D70F9198-EB06-45CE-BBC1-6B7F58EB83C8}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\royol\\documents\\backend\\apis\\libreriaproyecto\\businesslayer\\services\\categoria\\icategoriaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D70F9198-EB06-45CE-BBC1-6B7F58EB83C8}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\categoria\\icategoriaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{044160E2-4B05-4292-B841-B16572B67E04}|EntityLayer\\EntityLayer.csproj|c:\\users\\royol\\documents\\backend\\apis\\libreriaproyecto\\entitylayer\\models\\dto\\prestamosvista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{044160E2-4B05-4292-B841-B16572B67E04}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\models\\dto\\prestamosvista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A315E098-831E-41FA-9BF6-49C0C6C22B23}|API\\API.csproj|c:\\users\\royol\\documents\\backend\\apis\\libreriaproyecto\\api\\controllers\\categoria\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A315E098-831E-41FA-9BF6-49C0C6C22B23}|API\\API.csproj|solutionrelative:api\\controllers\\categoria\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{044160E2-4B05-4292-B841-B16572B67E04}|EntityLayer\\EntityLayer.csproj|c:\\users\\royol\\documents\\backend\\apis\\libreriaproyecto\\entitylayer\\models\\dto\\estudiantedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{044160E2-4B05-4292-B841-B16572B67E04}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\models\\dto\\estudiantedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{044160E2-4B05-4292-B841-B16572B67E04}|EntityLayer\\EntityLayer.csproj|c:\\users\\royol\\documents\\backend\\apis\\libreriaproyecto\\entitylayer\\models\\dto\\librodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{044160E2-4B05-4292-B841-B16572B67E04}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\models\\dto\\librodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{044160E2-4B05-4292-B841-B16572B67E04}|EntityLayer\\EntityLayer.csproj|c:\\users\\royol\\documents\\backend\\apis\\libreriaproyecto\\entitylayer\\models\\dto\\prestamoscabeceradto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{044160E2-4B05-4292-B841-B16572B67E04}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\models\\dto\\prestamoscabeceradto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +38,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LibroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\DataLayer\\Repositories\\Libro\\LibroRepository.cs",
-              "RelativeDocumentMoniker": "DataLayer\\Repositories\\Libro\\LibroRepository.cs",
-              "ToolTip": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\DataLayer\\Repositories\\Libro\\LibroRepository.cs",
-              "RelativeToolTip": "DataLayer\\Repositories\\Libro\\LibroRepository.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAAAEAAAAANAAAA",
+              "DocumentIndex": 3,
+              "Title": "PrestamosVista.cs",
+              "DocumentMoniker": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\EntityLayer\\Models\\DTO\\PrestamosVista.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Models\\DTO\\PrestamosVista.cs",
+              "ToolTip": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\EntityLayer\\Models\\DTO\\PrestamosVista.cs",
+              "RelativeToolTip": "EntityLayer\\Models\\DTO\\PrestamosVista.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T15:47:21.216Z",
+              "WhenOpened": "2024-08-05T02:59:18.031Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICategoriaServices.cs",
-              "DocumentMoniker": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\BusinessLayer\\Services\\Categoria\\ICategoriaServices.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Services\\Categoria\\ICategoriaServices.cs",
-              "ToolTip": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\BusinessLayer\\Services\\Categoria\\ICategoriaServices.cs",
-              "RelativeToolTip": "BusinessLayer\\Services\\Categoria\\ICategoriaServices.cs",
+              "DocumentIndex": 0,
+              "Title": "IPrestamoServices.cs",
+              "DocumentMoniker": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\BusinessLayer\\Services\\Prestamo\\IPrestamoServices.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\Prestamo\\IPrestamoServices.cs",
+              "ToolTip": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\BusinessLayer\\Services\\Prestamo\\IPrestamoServices.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\Prestamo\\IPrestamoServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T13:25:54.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoriaController.cs",
-              "DocumentMoniker": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\API\\Controllers\\Categoria\\CategoriaController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\Categoria\\CategoriaController.cs",
-              "ToolTip": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\API\\Controllers\\Categoria\\CategoriaController.cs",
-              "RelativeToolTip": "API\\Controllers\\Categoria\\CategoriaController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB4AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T13:24:38.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FiltroLibros.cs",
-              "DocumentMoniker": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\EntityLayer\\Models\\DTO\\FiltroLibros.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Models\\DTO\\FiltroLibros.cs",
-              "ToolTip": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\EntityLayer\\Models\\DTO\\FiltroLibros.cs",
-              "RelativeToolTip": "EntityLayer\\Models\\DTO\\FiltroLibros.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T06:14:07.017Z"
+              "WhenOpened": "2024-08-05T03:27:26.093Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LibrosFiltrados.cs",
-              "DocumentMoniker": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\EntityLayer\\Models\\DTO\\LibrosFiltrados.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Models\\DTO\\LibrosFiltrados.cs",
-              "ToolTip": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\EntityLayer\\Models\\DTO\\LibrosFiltrados.cs",
-              "RelativeToolTip": "EntityLayer\\Models\\DTO\\LibrosFiltrados.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Title": "PrestamoServices.cs",
+              "DocumentMoniker": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\BusinessLayer\\Services\\Prestamo\\PrestamoServices.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\Prestamo\\PrestamoServices.cs",
+              "ToolTip": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\BusinessLayer\\Services\\Prestamo\\PrestamoServices.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\Prestamo\\PrestamoServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T06:14:04.691Z"
+              "WhenOpened": "2024-08-05T03:27:19.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrestamoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\DataLayer\\Repositories\\Prestamo\\PrestamoRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Repositories\\Prestamo\\PrestamoRepository.cs",
+              "ToolTip": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\DataLayer\\Repositories\\Prestamo\\PrestamoRepository.cs",
+              "RelativeToolTip": "DataLayer\\Repositories\\Prestamo\\PrestamoRepository.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAYwEMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T03:19:17.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LibroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\EntityLayer\\Models\\DTO\\LibroDTO.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Models\\DTO\\LibroDTO.cs",
+              "ToolTip": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\EntityLayer\\Models\\DTO\\LibroDTO.cs",
+              "RelativeToolTip": "EntityLayer\\Models\\DTO\\LibroDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T03:15:19.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EstudianteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\EntityLayer\\Models\\DTO\\EstudianteDTO.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Models\\DTO\\EstudianteDTO.cs",
+              "ToolTip": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\EntityLayer\\Models\\DTO\\EstudianteDTO.cs",
+              "RelativeToolTip": "EntityLayer\\Models\\DTO\\EstudianteDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T03:15:16.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PrestamosCabeceraDTO.cs",
+              "DocumentMoniker": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\EntityLayer\\Models\\DTO\\PrestamosCabeceraDTO.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Models\\DTO\\PrestamosCabeceraDTO.cs",
+              "ToolTip": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\EntityLayer\\Models\\DTO\\PrestamosCabeceraDTO.cs",
+              "RelativeToolTip": "EntityLayer\\Models\\DTO\\PrestamosCabeceraDTO.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T03:15:13.677Z",
+              "EditorCaption": ""
             }
           ]
         }
