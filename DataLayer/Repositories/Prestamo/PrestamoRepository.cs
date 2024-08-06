@@ -3,11 +3,6 @@ using EntityLayer.Models.DTO;
 using EntityLayer.Models.Mappers;
 using EntityLayer.Responses;
 using Microsoft.Data.SqlClient;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataLayer.Repositories.Prestamo
 {

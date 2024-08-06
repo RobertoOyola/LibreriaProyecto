@@ -75,8 +75,7 @@
               "RelativeToolTip": "API\\Program.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAAD0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T03:37:51.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T03:37:51.63Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "DataLayer\\Repositories\\Prestamo\\IPrestamoRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T03:32:39.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T03:32:39.494Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\Prestamo\\IPrestamoServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T03:27:26.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T03:27:26.093Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\Prestamo\\PrestamoServices.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAABYAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T03:27:19.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T03:27:19.192Z"
             },
             {
               "$type": "Document",
@@ -125,7 +121,7 @@
               "RelativeDocumentMoniker": "DataLayer\\Repositories\\Prestamo\\PrestamoRepository.cs",
               "ToolTip": "C:\\Users\\royol\\Documents\\backend\\apis\\LibreriaProyecto\\DataLayer\\Repositories\\Prestamo\\PrestamoRepository.cs",
               "RelativeToolTip": "DataLayer\\Repositories\\Prestamo\\PrestamoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAARAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwAQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T03:19:17.603Z",
               "EditorCaption": ""
@@ -140,8 +136,7 @@
               "RelativeToolTip": "API\\Controllers\\Prestamo\\PrestamoController.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAABoAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T03:35:17.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T03:35:17.868Z"
             },
             {
               "$type": "Document",
