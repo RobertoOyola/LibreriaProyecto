@@ -31,5 +31,18 @@ namespace API.Controllers.Usuario
             }
             return Ok(response);
         }
+
+        [HttpPost("InsertarUsuario")]
+        public async Task<IActionResult> InsertarUsuario(UsuarioDTO usuarioDTO)
+        {
+            response = await _usuarioServices.InsertarUsuario(usuarioDTO);
+
+            if (response.Code == ResponseType.Error)
+            {
+                return BadRequest(response);
+            }
+
+            return Ok(response);
+        }
     }
 }

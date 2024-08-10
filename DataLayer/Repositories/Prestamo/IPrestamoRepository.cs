@@ -10,6 +10,10 @@ namespace DataLayer.Repositories.Prestamo
 {
     public interface IPrestamoRepository
     {
-        public Task<Response> ObtenerPrestamos();
+        public Task<Response> ObtenerPrestamos(string? busqueda);
+
+        public Task<Response> InsertarPrestamos(PrestamoDTO prestamoDTO);
+
+        public Task<Response> ConfirmarPrestamos(int idPrestamo);
     }
 }

@@ -20,9 +20,21 @@ namespace BusinessLayer.Services.Prestamo
             _prestamoRepository = prestamoRepository;
         }
 
-        public async Task<Response> ObtenerPrestamos()
+        public async Task<Response> ObtenerPrestamos(string? busqueda)
         {
-            response = await _prestamoRepository.ObtenerPrestamos();
+            response = await _prestamoRepository.ObtenerPrestamos(busqueda);
+            return response;
+        }
+
+        public async Task<Response> InsertarPrestamos(PrestamoDTO prestamoDTO)
+        {
+            response = await _prestamoRepository.InsertarPrestamos(prestamoDTO);
+            return response;
+        }
+
+        public async Task<Response> ConfirmarPrestamos(int idPrestamo)
+        {
+            response = await _prestamoRepository.ConfirmarPrestamos(idPrestamo);
             return response;
         }
     }

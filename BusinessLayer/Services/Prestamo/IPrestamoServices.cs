@@ -1,4 +1,5 @@
-﻿using EntityLayer.Responses;
+﻿using EntityLayer.Models.DTO;
+using EntityLayer.Responses;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,10 @@ namespace BusinessLayer.Services.Prestamo
 {
     public interface IPrestamoServices
     {
-        public Task<Response> ObtenerPrestamos();
+        public Task<Response> ObtenerPrestamos(string? busqueda);
+
+        public Task<Response> InsertarPrestamos(PrestamoDTO prestamoDTO);
+
+        public Task<Response> ConfirmarPrestamos(int idPrestamo);
     }
 }

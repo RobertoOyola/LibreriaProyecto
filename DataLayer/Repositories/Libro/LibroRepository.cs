@@ -19,6 +19,7 @@ namespace DataLayer.Repositories.Libro
             _context = context;
         }
 
+
         public async Task<Response> ObtenerLibroFiltro(FiltroLibros filtroLibros)
         {
             connection = (SqlConnection)response.Data!;
@@ -67,6 +68,53 @@ namespace DataLayer.Repositories.Libro
             {
                 response.Code = ResponseType.Error;
                 response.Message = $"No se pudieron obtener los libros {ex.Message}";
+                response.Data = ex.Data;
+            }
+            finally
+            {
+                connection.Close();
+            }
+
+            return response;
+        }
+
+
+        public async Task<Response> CrearLibro(LibroCrear libro)
+        {
+            connection = (SqlConnection)response.Data!;
+
+            try
+            {
+                SqlCommand command = new SqlCommand("SP_LIBRO_CREAR", connection);
+                command.CommandType = System.Data.CommandType.StoredProcedure;
+
+                command.Parameters.AddWithValue("@PV_NOMBRE_LIBRO", libro.Nombre);
+                command.Parameters.AddWithValue("@PV_ANIO_PUBLICACION", libro.AnioPublicacion);
+                command.Parameters.AddWithValue("@PV_NOMBRE_AUTOR", libro.NombreAutor);
+                command.Parameters.AddWithValue("@PI_TOTAL_STOCK", libro.TotalStock);
+                command.Parameters.AddWithValue("@PV_DESCRIPCION_CATEGORIA", libro.DescripcionCategoria);
+
+                int result = await command.ExecuteNonQueryAsync();
+
+                if (result != 0)
+                {
+                    response.Code = ResponseType.Success;
+                    response.Message = "Libro creado correctamente";
+                    response.Data = String.Empty;
+                    return response;
+                }
+                else
+                {
+                    response.Code = ResponseType.Error;
+                    response.Message = "No se pudo crear el libro";
+                    response.Data = String.Empty;
+                    return response;
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Code = ResponseType.Error;
+                response.Message = $"No se pudo ingresar el Libro {ex.Message}";
                 response.Data = ex.Data;
             }
             finally

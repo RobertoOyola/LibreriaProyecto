@@ -30,5 +30,18 @@ namespace API.Controllers.Libro
             }
             return Ok(response);
         }
+
+        [HttpPost("CrearLibro")]
+        public async Task<IActionResult> CrearLibro(LibroCrear libro)
+        {
+            response = await _libroServices.CrearLibro(libro);
+
+            if (response.Code == ResponseType.Error)
+            {
+                return BadRequest(response);
+            }
+
+            return Ok(response);
+        }
     }
 }

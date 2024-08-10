@@ -11,5 +11,7 @@ namespace BusinessLayer.Services.Libro
     public interface ILibroServices
     {
         public Task<Response> ObtenerLibroFiltro(FiltroLibros filtroLibros);
+
+        public Task<Response> CrearLibro(LibroCrear libro);
     }
 }

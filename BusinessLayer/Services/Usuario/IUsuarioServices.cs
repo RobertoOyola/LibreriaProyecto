@@ -11,5 +11,8 @@ namespace BusinessLayer.Services.Usuario
     public interface IUsuarioServices
     {
         public Task<Response> LoginUsuario(LoginUsuario loginUsuario);
+
+        public Task<Response> InsertarUsuario(UsuarioDTO usuarioDTO);
+
     }
 }

@@ -79,5 +79,50 @@ namespace DataLayer.Repositories.Usuario
 
             return response;
         }
+
+        public async Task<Response> InsertarUsuario(UsuarioDTO usuarioDTO)
+        {
+            connection = (SqlConnection)response.Data!;
+
+            try
+            {
+                SqlCommand command = new SqlCommand("SP_USUARIO_INS", connection);
+                command.CommandType = System.Data.CommandType.StoredProcedure;
+
+                command.Parameters.AddWithValue("@PV_CEDULA", usuarioDTO.Cedula);
+                command.Parameters.AddWithValue("@PV_CORREO", usuarioDTO.Correo);
+                command.Parameters.AddWithValue("@PV_CONTRASENIA", usuarioDTO.Contrasenia);
+                command.Parameters.AddWithValue("@PV_NOMBRES", usuarioDTO.Nombres);
+
+                int result = await command.ExecuteNonQueryAsync();
+
+                if (result != 0)
+                {
+                    response.Code = ResponseType.Success;
+                    response.Message = "Administrador creado correctamente";
+                    response.Data = String.Empty;
+                    return response;
+                }
+                else
+                {
+                    response.Code = ResponseType.Error;
+                    response.Message = "No se pudo crear al Administrador";
+                    response.Data = String.Empty;
+                    return response;
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Code = ResponseType.Error;
+                response.Message = $"No se pudo ingresar al Admin {ex.Message}";
+                response.Data = ex.Data;
+            }
+            finally
+            {
+                connection.Close();
+            }
+
+            return response;
+        }
     }
 }

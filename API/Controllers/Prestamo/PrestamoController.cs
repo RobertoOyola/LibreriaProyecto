@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Services.Prestamo;
 using BusinessLayer.Services.Usuario;
 using DataLayer.Repositories.Prestamo;
+using EntityLayer.Models.DTO;
 using EntityLayer.Responses;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -20,9 +21,35 @@ namespace API.Controllers.Prestamo
         }
 
         [HttpGet("ObtenerPrestamos")]
-        public async Task<IActionResult> ObtenerPrestamos()
+        public async Task<IActionResult> ObtenerPrestamos(string? busqueda)
         {
-            response = await _prestamoServices.ObtenerPrestamos();
+            var response = await _prestamoServices.ObtenerPrestamos(busqueda);
+
+            if (response.Code == ResponseType.Error)
+            {
+                return BadRequest(response);
+            }
+
+            return Ok(response);
+        }
+
+        [HttpPost("InsertarPrestamos")]
+        public async Task<IActionResult> InsertarPrestamos(PrestamoDTO prestamoDTO)
+        {
+            response = await _prestamoServices.InsertarPrestamos(prestamoDTO);
+
+            if (response.Code == ResponseType.Error)
+            {
+                return BadRequest(response);
+            }
+
+            return Ok(response);
+        }
+
+        [HttpPut("ConfirmarPrestamos")]
+        public async Task<IActionResult> ConfirmarPrestamos([FromBody] int idPrestamo)
+        {
+            var response = await _prestamoServices.ConfirmarPrestamos(idPrestamo);
 
             if (response.Code == ResponseType.Error)
             {

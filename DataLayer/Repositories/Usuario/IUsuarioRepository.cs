@@ -11,5 +11,6 @@ namespace DataLayer.Repositories.Usuario
     public interface IUsuarioRepository
     {
         public Task<Response> LoginUsuario(LoginUsuario loginUsuario);
+        public Task<Response> InsertarUsuario(UsuarioDTO usuarioDTO);
     }
 }

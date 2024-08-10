@@ -11,5 +11,7 @@ namespace DataLayer.Repositories.Libro
     public interface ILibroRepository
     {
         public Task<Response> ObtenerLibroFiltro(FiltroLibros filtroLibros);
+
+        public Task<Response> CrearLibro(LibroCrear libro);
     }
 }

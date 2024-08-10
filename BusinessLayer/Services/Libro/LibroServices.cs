@@ -25,5 +25,11 @@ namespace BusinessLayer.Services.Libro
             response = await _libroRepository.ObtenerLibroFiltro(filtroLibros);
             return response;
         }
+
+        public async Task<Response> CrearLibro(LibroCrear libro)
+        {
+            response = await _libroRepository.CrearLibro(libro);
+            return response;
+        }
     }
 }

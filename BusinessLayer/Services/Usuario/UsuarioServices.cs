@@ -25,5 +25,11 @@ namespace BusinessLayer.Services.Usuario
             response = await _usuarioRepository.LoginUsuario(loginUsuario);
             return response;
         }
+
+        public async Task<Response> InsertarUsuario(UsuarioDTO usuarioDTO)
+        {
+            response = await _usuarioRepository.InsertarUsuario(usuarioDTO);
+            return response;
+        }
     }
 }
